@@ -21336,8 +21336,8 @@ LED</text>
 </plain>
 <instances>
 <instance part="J1" gate="J1" x="195.58" y="119.38" smashed="yes">
-<attribute name="NAME" x="175.26" y="173.228" size="1.778" layer="95"/>
-<attribute name="VALUE" x="175.26" y="71.12" size="1.778" layer="96"/>
+<attribute name="NAME" x="175.26" y="173.228" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="175.26" y="71.12" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="U1" gate="G1" x="63.5" y="137.16" smashed="yes">
 <attribute name="NAME" x="27.94" y="168.91" size="1.778" layer="95" font="vector"/>
@@ -21401,8 +21401,8 @@ LED</text>
 <attribute name="VALUE" x="152.4" y="170.688" size="1.778" layer="96" font="vector" rot="MR0" align="top-left"/>
 </instance>
 <instance part="U2" gate="U1" x="116.84" y="81.28" smashed="yes">
-<attribute name="NAME" x="106.68" y="89.408" size="1.778" layer="95"/>
-<attribute name="VALUE" x="106.68" y="68.58" size="1.778" layer="96"/>
+<attribute name="NAME" x="106.68" y="89.408" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="106.68" y="68.58" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="D2" gate="G$1" x="137.16" y="17.78" smashed="yes">
 <attribute name="NAME" x="133.731" y="13.208" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -21522,7 +21522,7 @@ LED</text>
 <wire x1="99.06" y1="25.4" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
 <junction x="99.06" y="25.4"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<label x="66.04" y="27.94" size="1.27" layer="95" xref="yes"/>
+<label x="66.04" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="TP1" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="30.48" x2="63.5" y2="27.94" width="0.1524" layer="91"/>
 <junction x="63.5" y="25.4"/>
@@ -22164,11 +22164,11 @@ LED</text>
 <segment>
 <pinref part="U1" gate="G2" pin="PB5"/>
 <wire x1="15.24" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
-<label x="15.24" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="15.24" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="170.18" y1="114.3" x2="172.72" y2="114.3" width="0.1524" layer="91"/>
-<label x="170.18" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="170.18" y="114.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J1" gate="J1" pin="AUD_IN/CAM_PCLK"/>
 </segment>
 </net>

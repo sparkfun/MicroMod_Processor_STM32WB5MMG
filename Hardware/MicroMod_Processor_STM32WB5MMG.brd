@@ -3788,6 +3788,17 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="4.4" y="5.05" extent="1-16" drill="0.2"/>
 <via x="12.95" y="9.7" extent="1-16" drill="0.2"/>
 <via x="2.9" y="11.75" extent="1-16" drill="0.2"/>
+<wire x1="12.9" y1="21" x2="12.9" y2="19.5" width="0.15" layer="1"/>
+<wire x1="12.9" y1="21" x2="11.7" y2="21" width="0.15" layer="1"/>
+<wire x1="15" y1="19.7" x2="15" y2="18.65" width="0.15" layer="1"/>
+<wire x1="17.1" y1="21" x2="17.1" y2="19.4" width="0.15" layer="1"/>
+<wire x1="15" y1="19.7" x2="15" y2="18.6" width="0.15" layer="16"/>
+<wire x1="17.1" y1="19.4" x2="17.15" y2="19.35" width="0.15" layer="16"/>
+<wire x1="12.9" y1="21" x2="11.75" y2="21" width="0.15" layer="16"/>
+<wire x1="12.9" y1="21" x2="12.9" y2="19.45" width="0.15" layer="16"/>
+<wire x1="12.9" y1="19.45" x2="12.85" y2="19.4" width="0.15" layer="16"/>
+<wire x1="17.1" y1="21" x2="17.1" y2="19.4" width="0.15" layer="16"/>
+<wire x1="17.1" y1="21" x2="18" y2="21" width="0.15" layer="16"/>
 </signal>
 <signal name="!RESET!">
 <contactref element="C1" pad="1"/>
@@ -4062,16 +4073,13 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="19.45" y1="10.75" x2="17.8" y2="12.4" width="0.15" layer="16"/>
 <wire x1="7.75" y1="12.25" x2="12.1" y2="12.25" width="0.15" layer="16"/>
 <wire x1="7.75" y1="12.25" x2="6.95" y2="13.05" width="0.15" layer="16"/>
-<wire x1="6.95" y1="13.52" x2="6.63" y2="13.84" width="0.15" layer="16"/>
-<wire x1="6.63" y1="13.84" x2="6.53" y2="13.84" width="0.15" layer="16"/>
 <wire x1="6.95" y1="13.05" x2="6.95" y2="13.52" width="0.15" layer="16"/>
 <wire x1="4.2536" y1="17.16718125" x2="3.94" y2="17.48078125" width="0.15" layer="16"/>
 <wire x1="3.94" y1="17.48078125" x2="3.94" y2="17.64" width="0.15" layer="16"/>
-<wire x1="4.2536" y1="16.15" x2="4.2536" y2="17.16718125" width="0.15" layer="16"/>
+<wire x1="4.2536" y1="16.2164" x2="4.2536" y2="17.16718125" width="0.15" layer="16"/>
 <wire x1="3.94" y1="17.64" x2="4.25" y2="17.95" width="0.15" layer="1"/>
 <wire x1="4.25" y1="17.95" x2="4.25" y2="18.325" width="0.15" layer="1"/>
-<wire x1="4.2536" y1="16.1164" x2="4.2536" y2="16.15" width="0.15" layer="16"/>
-<wire x1="6.53" y1="13.84" x2="4.2536" y2="16.1164" width="0.15" layer="16"/>
+<wire x1="6.95" y1="13.52" x2="4.2536" y2="16.2164" width="0.15" layer="16"/>
 </signal>
 <signal name="QSPI_!CS!">
 <contactref element="U1" pad="70"/>
@@ -4543,11 +4551,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 </signal>
 <signal name="PC11/G1">
 <contactref element="U1" pad="23"/>
-<wire x1="4.95" y1="10.35" x2="4.95" y2="10.375" width="0.15" layer="1"/>
-<wire x1="4.95" y1="10.375" x2="4.7" y2="10.625" width="0.15" layer="1"/>
-<wire x1="4.7" y1="11.075" x2="4.7" y2="10.625" width="0.15" layer="1"/>
+<wire x1="5.0464" y1="10.2536" x2="4.7" y2="10.6" width="0.15" layer="1"/>
+<wire x1="4.7" y1="11.075" x2="4.7" y2="10.6" width="0.15" layer="1"/>
 <contactref element="J1" pad="42"/>
-<wire x1="4.95" y1="10.35" x2="5.0464" y2="10.2536" width="0.15" layer="1"/>
 <wire x1="5.0464" y1="10.2536" x2="5.46718125" y2="10.2536" width="0.15" layer="1"/>
 <wire x1="5.46718125" y1="10.2536" x2="5.8984" y2="9.82238125" width="0.15" layer="1"/>
 <via x="10" y="3.15" extent="1-16" drill="0.2"/>
@@ -4782,8 +4788,8 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <signal name="GND1">
 <polygon width="0.1" layer="15" pour="cutout">
 <vertex x="7.9" y="22"/>
-<vertex x="7.9" y="19.15"/>
-<vertex x="0" y="19.15"/>
+<vertex x="7.9" y="19.2"/>
+<vertex x="0" y="19.2"/>
 <vertex x="0" y="22"/>
 </polygon>
 </signal>
