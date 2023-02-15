@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
@@ -203,10 +203,10 @@
 <wire x1="0" y1="21" x2="1" y2="22" width="0.127" layer="20" curve="-87.205638"/>
 <wire x1="16.75" y1="22" x2="13.25" y2="22" width="0.127" layer="20" curve="-180"/>
 <text x="79.4" y="-18.55" size="1.778" layer="51" font="vector">Alex Brudner</text>
-<text x="20.05" y="13.7" size="0.8" layer="1" font="vector" ratio="15">1</text>
-<text x="20.45" y="13.7" size="0.8" layer="2" font="vector" ratio="15">2</text>
-<text x="20.85" y="13.7" size="0.8" layer="15" font="vector" ratio="15">3</text>
-<text x="21.7" y="13.7" size="0.8" layer="16" font="vector" ratio="15" rot="MR0">4</text>
+<text x="20.05" y="13.7" size="0.8" layer="1" font="vector" ratio="15" rot="SR0">1</text>
+<text x="20.45" y="13.7" size="0.8" layer="2" font="vector" ratio="15" rot="SR0">2</text>
+<text x="20.85" y="13.7" size="0.8" layer="15" font="vector" ratio="15" rot="SR0">3</text>
+<text x="21.7" y="13.7" size="0.8" layer="16" font="vector" ratio="15" rot="SMR0">4</text>
 <text x="21.8" y="7.75" size="0.8" layer="16" font="vector" ratio="15" rot="SMR270">v01</text>
 <text x="28.4" y="28.35" size="1.27" layer="51" font="vector">Board Thickness is 0.8mm</text>
 <text x="28.4" y="26.35" size="1.27" layer="51" font="vector">Beveled Edge</text>
