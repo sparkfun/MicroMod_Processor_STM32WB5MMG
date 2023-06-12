@@ -1,41 +1,30 @@
-SparkFun <PRODUCT NAME>
+SparkFun MicroMod Processor Board - STM32WB5MMG 
 ========================================
 
-[![SparkFun Part Name](URL for picture of part)](URL for product on Sparkfun.com)
+[![MicroMod Processor Board - STM32WB5MMG](https://cdn.sparkfun.com//assets/parts/2/1/2/6/8/21438-_DEV_MM_STM32WB-_01.jpg)](https://www.sparkfun.com/products/21438)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*MicroMod Processor Board - STM32WB5MMG (DEV-21438)*](https://www.sparkfun.com/products/21438)
 
-<Basic description of the part.>
+The MicroMod STM32WB5MMG Processor expands on SparkFun&apos;s MicroMod ST product line with a powerful combination of computing and wireless capabilities all on one Processor. The STM32WB5MMG from STMicroelectronics<sup>&trade;</sup> is an ultra-low power microcontroller that combines a pair of Arm<sup>&reg;</sup> Cortex<sup>&reg;</sup> processors; a Cortex-M4 processor for primary computing and a Cortex-M0 to run the 2.4 GHz radio. The radio is Bluetooth<sup>&reg;</sup> Low Energy 5.3, Zigbee<sup>&reg;</sup> 3.0, and OpenThread certified.
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
 * **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
+
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/micromod-stm32wb5mmg-hookup-guide)** - Basic hookup guide for the MicroMod Processor Board - STM32WB5MMG .
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU](retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [DEV-21438](https://www.sparkfun.com/products/21438)- MicroMod Processor for the STM32WB5MMG
 
 License Information
 -------------------
@@ -49,5 +38,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
